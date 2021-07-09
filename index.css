@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+html, body { height: 100%; width: 100%; margin: 0; }
+div { height: 100%; width: 100%; background: #F52887; }
+
+
+/* ------------------------ BACKGROUNDS ------------------------*/
+.background1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #252525ff;
+}
+
+.background2{
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    background-color: #191919ff;
+}
+
+.background3{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.background4{
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    background-color: #1f1f1fff;
+}
+
+.background5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+/* ------------------------ SQUARES ------------------------*/
+
+.currentlySquare1 {
+    position: absolute;
+    background-color: #191919ff;
+    height: 75vh;
+    width: 50vw;
+    left: 5vw;
+    top: -80vh;
+}
+
+.currentlySquare2 {
+    position: relative;
+    background-color: #1f1f1fff;
+    height: 75vh;
+    width: 50vw;
+    left: 10vw;
+    top: -70vh;
+}
+
+.contactsStrip{
+    position: absolute;
+    background-color: #191919ff;
+    min-height: 600px;
+    width: 80vw;
+    height: 110%;
+    top: -10%;
+    left: 50vw;
+    transform: translate(-50%, 0%);
+}
+
+/* ------------------------ IMAGES ------------------------*/
+
+.leaves {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: -35vh;
+    left: 50vw;
+    transform: translate(0%, -50%);
+}
+
+.road {
+    position: absolute;
+    width: 75%;
+    height: auto;
+    top: -30vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+/* ------------------------ TEXT ------------------------*/
+
+.contactsStrip h1{
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.contactDiv {
+    position: absolute;
+    background-color: transparent;
+    height: auto;
+    min-height: 80%;
+    width: 80%;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 0%);
+    margin: 0;
+    padding: 0;
+}
+
+.contactText {
+    position: relative;
+    background-color: transparent;
+    min-width: 400px;
+    min-height: 40px;
+    height: 10vh;
+    margin: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.contactText .label {
+    position: absolute;
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    padding-left: 5%;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+
+.contactText .text{
+    position: absolute;
+    color: white;
+    font-family: Poppins;
+    text-align: right;
+    width: 70%;
+    height: auto;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    padding-right: 5%;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+}
+
+.currently {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 90px;
+    text-align: center;
+    width: 70%;
+    color: white;
+    font-family: Poppins;
+    left: 40%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+.have {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 90px;
+    text-align: right;
+    width: 70%;
+    color: white;
+    font-family: Poppins;
+    left: 50%;
+    top: 40%;
+
+    transform: translate(-50%,-50%);
+}
+
+.what {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 90px;
+    text-align: left;
+    width: 70%;
+    color: white;
+    font-family: Poppins;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    min-height: 50px;
+    background-color: transparent;
+}
+
+.navbar a{
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
